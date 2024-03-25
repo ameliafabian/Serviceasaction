@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link your CSS file here -->
+    <style>
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 10px;
+            text-align: left;
+            font-family: 'EB Garamond', serif;
+            font-size: 10px;
+            font-weight: 200;
+            display: flex;
+            /* Use flexbox for header contents */
+            align-items: center;
+            /* Align items vertically */
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .image-container {
+            flex: 0 0 auto;
+            /* Don't grow or shrink */
+            margin-right: 20px;
+            /* Add some space between the image and text */
+        }
+
+        .profile-picture {
+            width: 200px;
+            /* Adjust the width as needed */
+            height: 200px;
+            /* Adjust the height as needed */
+            border-radius: 50%;
+            /* Make it circular */
+            object-fit: cover;
+            /* Ensure the image covers the entire space */
+        }
+
+        .text-container {
+            flex: 1;
+            /* Grow to fill remaining space */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Wellness Project</h1>
+        <nav>
+            <a href="index.html" target="_blank">Home</a>
+            <a href="references.html" target="_blank">References</a>
+        </nav>
+    </header>
+    <section class="about-section">
+        <div class="about-content">
+            <div class="image-container">
+                <img src="pfp.jpeg" alt="Profile Picture" class="profile-picture">
+            </div>
+            <div class="text-container">
+                <h2>About Us</h2>
+                <p>This short and informative website was created by highschool student at Centennial highschool, Amelia
+                    Fabian, in hopes to inform people the potential dangers of everyday usage of household chemicals,
+                    and prevent any possible injuries/ accidents that come with it. The goal of creating this website
+                    was to bring global awareness to the issue of processed chemicals that do not come with many
+                    warnings.</p>
+                <p>Thank you for reading!</p>
+                <p>Instagram: <a href="https://www.instagram.com/ameliafabian8/" target="_blank">@ameliafabian8</a></p>
+                <p>Linkedin: <a href="https://www.linkedin.com/in/ameliafabian8/" target="_blank">@ameliafabian8</a></p>
+                <p>Email/Phone: ameliafabian469@gmail.com / (840)444-6917</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

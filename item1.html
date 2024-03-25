@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item 1 Details</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .image-container {
+            flex: 1;
+        }
+
+        .text-container {
+            flex: 2;
+            padding-left: 20px;
+            /* Add some spacing between the image and text */
+        }
+
+        .image {
+            max-width: 100%;
+            /* Make sure the image doesn't exceed its container */
+            height: auto;
+            /* Maintain aspect ratio */
+        }
+
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 10px;
+            text-align: left;
+            font-family: 'EB Garamond', serif;
+            font-size: 10px;
+            font-weight: 200;
+            display: flex;
+            /* Use flexbox for header contents */
+            align-items: center;
+            /* Align items vertically */
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Wellness Project</h1>
+        <nav>
+            <a href="about.html" target="_blank">About</a>
+            <a href="references.html" target="_blank">References</a>
+        </nav>
+    </header>
+    <div id="bleachandammonia" class="container">
+        <div class="image-container">
+            <img src="BandA.png" alt="Image" class="image">
+        </div>
+        <div class="text-container">
+            <h2>NaClO + NH₃ → NH₂Cl</h2>
+            <h3>Bleach + Ammonia → Chloramine</h3>
+            <p>Mixing Bleach and Ammonia can create chloramine gas, which is highly toxic for humans to inhale. This
+                mixture can cause a deadly chemical reaction, releasing toxic fumes that can cause sore throats,
+                unconsciousness, and death. Chlorine bleach, which contains sodium hypochlorite, releases chloramine gas
+                into the air, leading to chemical pneumonitis. This can cause irritation to the throat, nose, and eyes,
+                lasting up to 24 hours in mild cases.</p>
+        </div>
+    </div>
+</body>
+
+</html>
